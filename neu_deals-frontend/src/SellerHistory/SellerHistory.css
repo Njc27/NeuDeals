@@ -1,0 +1,12 @@
+.about_page{
+    margin-top: 2rem;
+}
+
+.a_card{
+    margin-top: 2.5rem;
+    margin-left: 8rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    /* grid-template-columns: 1fr; */
+    gap: 1rem;
+}

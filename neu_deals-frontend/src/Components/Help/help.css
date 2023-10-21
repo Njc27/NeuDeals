@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.contact-form {
+  max-width: 500px;
+  height: 560px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ddd;
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+
+}
+
+.form-heading span {
+  color: #c50a0a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 40px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  height: 40px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #c41919;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #c41919;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-button:hover {
+  background-color: #000000;
+}
+
+.form-message {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  height: 100px;
+}
+
+.form-input-message{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-input-message:focus {
+  outline: none;
+  border-color: #c41919;
+}
+
+
+@media (max-width: 768px){
+
+  .contact-form {
+    max-width: 500px;
+    height: 560px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 180px;
+    background-color: #ddd;
+  }
+
+}

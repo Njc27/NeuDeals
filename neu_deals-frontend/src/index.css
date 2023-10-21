@@ -1,0 +1,49 @@
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+}
+
+.container {
+
+  margin: 1rem;
+  text-align: center;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); /*title: NEU DEALS */
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quattrocento&display=swap');
+
+
+:root{
+
+ --Righteous:'Righteous',serif;
+ --Quattrocent:'Quattrocent', sans-serif;
+ --Pacifico: 'Pacifico',sans-serif;
+ 
+ --color-bg: #fffffe;
+ --color-red: #cb2026;
+ --color-black: #000000;
+ --color-white: #ffffff;
+ 
+ --container-width-lg: 75%;
+ --container-width-md: 86%;
+ --container-width-sm: 90%;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+}
+
+.container {
+
+ margin: 1rem;
+ text-align: center;
+}

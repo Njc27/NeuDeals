@@ -1,0 +1,20 @@
+
+.external-container{
+    color: white;
+    margin: 15px auto ;
+}
+.num-input{
+    height: 25px !important;
+}
+input{
+    height: 35px;
+}
+span{
+    height: 34px;
+    margin-left: 0px ;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    padding: auto;
+}
