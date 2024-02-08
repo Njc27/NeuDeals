@@ -15,12 +15,13 @@ The website includes below web pages
 
 
 Techstack
-MongoDB - For Database
-ReactJS - For Frontend
-Bootstrap - For Dynamic and Responsive website
-NodeJS - For Backend Connection
-CSS - For Styling
-Stripe - For Payment Gateway 
+
+- MongoDB - For Database
+- ReactJS - For Frontend
+- Bootstrap - For Dynamic and Responsive website
+- NodeJS - For Backend Connection
+- CSS - For Styling
+- Stripe - For Payment Gateway 
 
 
 
