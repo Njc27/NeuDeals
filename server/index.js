@@ -6,7 +6,7 @@ var cors = require('cors');
 require('dotenv').config();
 
 var port = process.env.PORT || 8080;
-mongoose.connect(process.env.MONGO_DB_URL, { useNewUrlParser:true});app.use(cors());
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser:true});app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: false
