@@ -6,7 +6,7 @@ let express = require('express'),
 const DIR = './public/';
 
 
-let Product = require('../models/Product');
+let Product = require('../models/product');
 
     const post = async(req,res,next) =>{
     try{

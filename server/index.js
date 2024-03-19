@@ -3,11 +3,10 @@ var app = express();
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var cors = require('cors');
+require('dotenv').config();
 
 var port = process.env.PORT || 8080;
-
-mongoose.connect("mongodb+srv://jcnamitha27:MongoDb2711@cluster0.sqbhym6.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true });app.use(cors());
-// parse application/json
+mongoose.connect(process.env.MONGO_DB_URL, { useNewUrlParser:true});app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: false
