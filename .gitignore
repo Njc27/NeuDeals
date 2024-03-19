@@ -1,4 +1,15 @@
+# General DS_Store ignore
 .DS_Store
+
+# DS_Store ignore in src directory
 src/.DS_Store
-neu_deals-frontend/node_modules
-sever/node_modules
+
+# Ignore node_modules directories
+neu_deals-frontend/node_modules/
+server/node_modules/
+
+# Ignore .env files globally
+.env
+
+# Specifically ignore the .env file in the server directory
+server/.env
